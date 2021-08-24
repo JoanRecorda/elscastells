@@ -19,7 +19,7 @@ This project is a Laravel CRUD exercice to store castells of catalan castellers 
 * Laravel v8.6.1 - https://laravel.com/docs/8.x/installation - Installation Via composer
 * Composer 2.0.13
 
-## Migrate: config tables to phpMyAdmin
+## Migrate config tables to phpMyAdmin
 ```
 $ php artisan migrate
 ```
@@ -27,6 +27,13 @@ $ php artisan migrate
 ## Model: create model control and resource -mcr
 ```
 $ php artisan make:model <<<Castell>>> -mcr
+```
+
+## Table fields, that's it the methods related with the column types: https://laravel.com/docs/8.x/migrations#creating-columns
+
+## Migrate:refresh update the edited changes of the tables phpMyAdmin tables
+```
+$ php artisan migrate:refresh
 ```
 
 ## Installation and Setup
