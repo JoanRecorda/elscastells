@@ -17,9 +17,17 @@ This project is a Laravel CRUD exercice to store castells of catalan castellers 
 ## Stack and Technologies
 
 * Laravel v8.6.1 - https://laravel.com/docs/8.x/installation - Installation Via composer
-* Composer 3.6.2 - https://vuex.vuejs.org/
-* Bootstrap 0.21.1 - https://github.com/axios/axios
-* 
+* Composer 2.0.13
+
+## Migrate: config tables to phpMyAdmin
+```
+$ php artisan migrate
+```
+
+## Model: create model control and resource -mcr
+```
+$ php artisan make:model <<<Castell>>> -mcr
+```
 
 ## Installation and Setup
 ```
