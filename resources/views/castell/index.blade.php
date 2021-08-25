@@ -1,2 +1,2 @@
 <?php
-    Show the list of castells
+    Show the list of castell
