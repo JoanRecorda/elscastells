@@ -21,25 +21,57 @@ This project is a Laravel CRUD exercice to store castells of catalan castellers 
 
 ## Installation and Setup
 
-### Migrate config tables to phpMyAdmin
+* Git clone https://github.com/KlikFanClub/FanClubWeb.git
+
+* Install Composer if you don't have already globally installed
+```
+$ composer install
+```
+
+* Or make an Update
+```
+$ composer update
+```
+
+* To startup php server
+```
+$ php artisan serve
+```
+
+* To compile laravel
+```
+$ npm run watch
+```
+
+* Generate key env
+
+* Migrate config tables to phpMyAdmin
 ```
 $ php artisan migrate
 ```
 
-### Model: create model control and resource -mcr
+* Model: create model control and resource -mcr
 ```
 $ php artisan make:model <<<Castell>>> -mcr
 ```
 
-### Table fields, that's it the methods related with the column types:
-* https://laravel.com/docs/8.x/migrations#creating-columns
+* Table fields, that's it the methods related with the column types:
+- https://laravel.com/docs/8.x/migrations#creating-columns
 
-### Migrate:refresh update the edited changes of the tables phpMyAdmin tables
+* Migrate:refresh update the edited changes of the tables phpMyAdmin tables
 ```
 $ php artisan migrate:refresh
 ```
 
 <img src="/img/LaravelBasicInstructions01.png">
+
+* The list of routes
+```
+$ php artisan route:list
+```
+
+<img src="/img/LaravelBasicInstructions02.png">
+
 
 
 
